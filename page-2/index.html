@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/owj6ggn.css">
+        <script src="https://kit.fontawesome.com/dbc70b420b.js" crossorigin="anonymous"></script>
+        <title>page-2 WIP</title>
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+      <div class="wrapper">
+        
+        <!-- <div class="nav-bar">
+            <a href="../index.html">דף הבית</a>
+            <a href="/page-2/index.html">אודות</a>
+            <a href="/page-3/index.html">תוכן</a>
+        </div> -->
+        <div class="topnav">
+            <a float="center" style="background-color:rgb(51, 122, 189); color: white;" href="../">תיירות בעכו</a>
+            <a style="float: right;" href="../">דף הבית</a>
+            <a style="float: right;" class="active" href="./">אודות</a>
+            <a style="float: right;" href="../page-3/">תוכן</a>
+          </div>
+
+          page 2
+      <!--  <div class="social">
+            <center>
+            <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+        </center>
+        </div> -->
+        
+    </div>
+    </body>
+    <script>
+        //Get the button:
+  mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+      </script>
+</html>
