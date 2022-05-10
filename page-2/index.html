@@ -8,7 +8,7 @@
         <meta charset="UTF-8" />
     </head>
     <body>
-        <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+        <button onclick="topFunction()" id="top" title="Go to top">^</button>
       <div class="wrapper">
         
         <!-- <div class="nav-bar">
@@ -34,16 +34,16 @@
     </body>
     <script>
         //Get the button:
-  mybutton = document.getElementById("myBtn");
+  top = document.getElementById("top");
   
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
   
   function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      mybutton.style.display = "block";
+      top.style.display = "block";
     } else {
-      mybutton.style.display = "none";
+      top.style.display = "none";
     }
   }
   
