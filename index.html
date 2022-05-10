@@ -16,7 +16,7 @@
              <a href="/page-3/index.html">תוכן</a>
          </div> -->
             <body>
-              <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+              <button onclick="topFunction()" id="top" title="Go to top">^</button>
             <div class="topnav">
               <a float="center" style="background-color:rgb(51, 122, 189); color: white;" href="./">תיירות בעכו</a>
               <a style="float: right;" class="active" href="./">דף הבית</a>
@@ -69,16 +69,16 @@
     </body>
     <script>
       //Get the button:
-mybutton = document.getElementById("myBtn");
+top = document.getElementById("top");
 
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
+    top.style.display = "block";
   } else {
-    mybutton.style.display = "none";
+    top.style.display = "none";
   }
 }
 
