@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/owj6ggn.css">
+        <script src="https://kit.fontawesome.com/dbc70b420b.js" crossorigin="anonymous"></script>
+        <title>Home-Page WIP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8" />
+    </head>
+    <body>
+        
+        <div class="content">
+            <!-- <div class="nav-bar">
+                <a href="/index.html">דף הבית</a>
+             <a href="/page-2/index.html">אודות</a>
+             <a href="/page-3/index.html">תוכן</a>
+         </div> -->
+            <body>
+              <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+            <div class="topnav">
+              <a float="center" style="background-color:rgb(51, 122, 189); color: white;" href="./">תיירות בעכו</a>
+              <a style="float: right;" class="active" href="./">דף הבית</a>
+              <a style="float: right;" href="./page-2/">אודות</a>
+              <a style="float: right;" href="./page-3/">תוכן</a>
+            </div>
+            
+            <br><br><br><br>
+            <div class="pics">
+                <center>
+                    <div class="polaroid">
+                        <img src="https://www.planetware.com/photos-large/ISR/israel-acre-citadel.jpg" alt="5 Terre" height="240px" style="max-width: 330px; width: 100%;">
+                        <div class="container">
+                        <p>מרכז מבקרים - עכו העתיקה</p>
+                        </div>
+                      </div>
+                      <div class="polaroid">
+                        <img src="https://www.custodia.org/sites/default/files/2021-06/acre_1_0.jpg" alt="5 Terre" height="240px" style="max-width: 330px; width: 100%;">
+                        <div class="container">
+                        <p>חומת המגדלאור - עכו העתיקה</p>
+                        </div>
+                      </div>
+                      <div class="polaroid">
+                        <img src="https://cdn.audleytravel.com/1050/751/79/7994992-acre.webp" alt="5 Terre" height="240px" style="max-width: 330px; width: 100%;">
+                        <div class="container">
+                        <p>מבט על חומת עכו - עכו העתיקה</p>
+                        </div>
+                      </div>
+                      <div class="polaroid">
+                        <img src="https://www.rent-a-guide.co.il/images/sites_we_tour/acco/acre_001.jpg" alt="5 Terre" height="240px" style="max-width: 330px; width: 100%;">
+                        <div class="container">
+                        <p>מבט אוויר על עכו העתיקה - עכו העתיקה</p>
+                        </div>
+                      </div>
+            </center>
+            </div>
+            <center>
+            <div class="ytvid">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZiBMD2X0L2c?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/view?zoom=17&center=32.9241%2C35.0730&key=AIzaSyBDASKnWmik7wYylYPQp8ORwEDx8WKBOYg"></iframe>
+            </div>
+            </center>
+         <!--   <div class="social">
+                <center>
+                <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            </center>
+            </div> -->
+            
+        </div>
+    </body>
+    <script>
+      //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+</html>
